@@ -3,4 +3,4 @@ mono: none
 dotnet: 2.1.300
 script:
   - dotnet build core
-  - dotnet test core
+  - dotnet test .\core\test\Corenet.Core.Tests\Corenet.Core.Tests.csproj
